@@ -58,9 +58,9 @@ bulb.html
     {% endif %}
 </body>
 </html>
-```
+
 urls.py
-```
+
 from django.contrib import admin
 from django.urls import path
 from calculator import views
@@ -69,9 +69,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.power, name="power"),
 ]
-```
+
 views.py
-```
+
 from django.shortcuts import render
 
 def power(request):
@@ -84,8 +84,8 @@ def power(request):
 ```
 
 # SERVER SIDE PROCESSING:
-exp5/mathserver/Screenshot 2025-12-15 085445.png
+![alt text](<Screenshot 2025-12-15 085445.png>)
 # HOMEPAGE:
-exp5/mathserver/Screenshot 2025-12-15 085302.png
+![alt text](<Screenshot 2025-12-15 085302.png>)
 # RESULT:
 The program for performing server side processing is completed successfully.
